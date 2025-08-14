@@ -1,0 +1,56 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+h1 {
+    background: #4a90e2;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+.card-section {
+    padding: 20px;
+}
+
+.minDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    background-color: #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.minDiv input, .minDiv button {
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+}
+
+.minDiv button {
+    background: #4a90e2;
+    color: white;
+    cursor: pointer;
+    transition: background 0.15s ease;
+}
+
+.minDiv button:hover {
+    background: #3a7cd4;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    text-align: center;
+    margin: 10px auto;
+    max-width: 300px;
+}
