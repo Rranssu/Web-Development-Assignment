@@ -1,0 +1,1 @@
+let n=0;const btn=document.getElementById("bttn");btn.addEventListener("click",()=>{n+=1;btn.textContent="Number of bisaya: "+n});

@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background: skyblue;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 30px 40px;
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+#bttn {
+  padding: 14px 20px;
+  font-size: 18px;
+  border: 0;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.85);
+  color: #333;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+
+#bttn:hover {
+  background: rgba(255, 255, 255, 0.95);
+}
+
+#bttn:active {
+  transform: translateY(1px);
+}
